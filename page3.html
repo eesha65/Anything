@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .top_bar {
+        display: grid;
+        justify-content: space-between;
+        border: solid white;
+        max-width: 200vh;
+        min-width: 200vh;
+        max-height: 7vh;
+        min-height: 7vh;
+      }
+      .all_videos {
+        display: grid;
+        border: solid white;
+        grid-template-columns: 70vh 70vh 70vh;
+        margin-top: 10px;
+        width: 200vh;
+      }
+      .card {
+        margin: 10px;
+        display: flex;
+        border: solid white;
+        border-radius: 20px;
+        justify-content: space-between;
+        width: 52.5vh;
+        height: 24vh;
+        box-shadow: 0px 0px 16px white;
+        transition: width 0.15s, height 0.15s;
+      }
+      .card:hover {
+        width: 55vh;
+        height: 25vh;
+      }
+      .channel {
+        border: solid white;
+        border-radius: 15px 0px 0px 0px;
+        max-height: 6vh;
+        max-width: 6vh;
+        min-height: 6vh;
+        min-width: 6vh;
+      }
+      .preview {
+        height: 24vh;
+        width: 45.3vh;
+        transition: height 0.15s;
+        border: none white;
+        border-radius: 0px 20px 20px 0px;
+      }
+      .preview:hover {
+        height: 25vh;
+      }
+      .pages {
+        border: solid white;
+        border-radius: 50%;
+        background-color: whitesmoke;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        object-fit: contain;
+        margin: 5px;
+        padding: 3px;
+        box-shadow: 0px 0px 10px white;
+      }
+      .pages:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif;">
+    <div class="top_bar" style="display: flex">
+      <a href="page1.html">
+        <img
+          class="home_button"
+          style="max-width: 7vh; min-width: 7vh"
+          src="side_images/home.png"
+          alt="home"
+        />
+      </a>
+
+      <img
+        class="logo"
+        style="height: 6.2vh"
+        src="side_images/logo.png"
+        alt="logo"
+      />
+      <a href="links.html">
+        <img style="width: 6vh" src="side_images/dots.png" alt="oth" />
+      </a>
+    </div>
+    <div class="all_videos">
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="card">
+        <img class="channel" src="channels/channel-9.jpeg" alt="" />
+        <iframe
+          class="preview"
+          src="https://www.youtube.com/embed/hhOQT693q00?si=bc_V2bt4ZhQzVHLD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="footer">
+      <p><a class="pages" href="index.html">1</a></p>
+      <p><a class="pages" href="page2.html">2</a></p>
+      <p><a class="pages" href="page3.html">3</a></p>
+      <p><a class="pages" href="page4.html">4</a></p>
+    </div>
+  </body>
+</html>
